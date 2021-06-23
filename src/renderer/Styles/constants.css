@@ -1,0 +1,23 @@
+.bg-darkest-grey {
+	background-color: #181818;
+}
+
+.bg-dark-grey {
+	background-color: #282828;
+}
+
+.bg-grey {
+	background-color: #404040;
+}
+
+.bg-light-grey {
+	background-color: #B3B3B3;
+}
+
+.text-normal {
+	color: #B3B3B3;
+}
+
+.text-accent {
+	color: white;
+}
