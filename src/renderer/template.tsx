@@ -3,7 +3,7 @@ import React from "react";
 const Template = () => {
 	return(
 		<div className="">
-			<h1>Welkom Template</h1>
+			<h1>Welcome Template</h1>
 		</div>
 	);
 }

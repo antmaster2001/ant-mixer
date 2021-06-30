@@ -5,14 +5,15 @@ import * as path from 'path'
 import { format as formatUrl } from 'url'
 
 const isDevelopment = process.env.NODE_ENV !== 'production'
-
 // global reference to mainWindow (necessary to prevent window from being garbage collected)
 let mainWindow
 
 function createMainWindow() {
+  let {width, height} = require('electron').screen.getPrimaryDisplay().size;
   const window = new BrowserWindow({
     title: "ANT-MIXER",
-    webPreferences: {nodeIntegration: true}
+    webPreferences: {nodeIntegration: true},
+    width: width, height: height - height / 6
   })
 
   if (isDevelopment) {
