@@ -1,10 +1,11 @@
 import React from "react";
 
-import MainComponent from "../renderer/Components/mainComponent"
+import {SideBarDisplay, MainComponent} from "../renderer/Components/index";
 
 const App = () => {
 	return(
-		<div className="App">
+		<div className="grid grid-cols-6">
+			<SideBarDisplay />
 			<MainComponent />
 		</div>
 	);
