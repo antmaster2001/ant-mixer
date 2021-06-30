@@ -6,7 +6,7 @@ import {MixerDisplay, ProgramsDisplay, history} from "../index";
 
 const MainDisplay = () => {
 	return (
-		<div className="text-normal grid justify-items-center col-span-4">
+		<div className="text-normal col-span-5 p-12">
 			<Router history={history}>
 			<Switch>
 				<Route path="/"exact component={MixerDisplay}></Route>
